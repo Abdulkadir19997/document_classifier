@@ -6,14 +6,14 @@ This project implements a comprehensive solution for resume classification and s
 
 This repository includes the following key components:
 
-6. **Synthetic Resume document generation (`0-create-resumes.ipynb`)**:
+1. **Synthetic Resume document generation (`0-create-resumes.ipynb`)**:
    - **Description**: OpenAI API has been used for this process. Although using real-life data is always preferable, this can provide an idea of how to generate custom data for our domain problem.
    - **Technologies Used**:
      - **OpenAI API**: For generating synthetic data.
      - **Pandas**: For reading, cleaning, and organizing resume data.
    - **Purpose**: This notebook serves to preprocess and prepare raw resumes for use in both the classification and semantic search pipelines.
 
-1. **Text Classification (`1-text-classification.ipynb`)**:
+2. **Text Classification (`1-text-classification.ipynb`)**:
    - **Description**: This file contains a pipeline for classifying resumes into predefined categories.
    - **Technologies Used**: 
      - **Sentence-Transformers**: Used for generating semantic embedding vectors for each resume.
@@ -21,7 +21,7 @@ This repository includes the following key components:
      - **Pandas & NumPy**: For data manipulation and analysis.
    - **Purpose**: This file is the backbone of the text classification pipeline, which assigns categories to resume data.
 
-2. **Semantic Search (`2-semantic-search.ipynb`)**:
+3. **Semantic Search (`2-semantic-search.ipynb`)**:
    - **Description**: Implements a semantic search engine using embeddings to match resumes to specific job descriptions or queries.
    - **Technologies Used**:
      - **Sentence-Transformers**: Used for generating semantic embedding vectors for each resume.
