@@ -1,4 +1,4 @@
-# Resume Classification and Semantic Search using Machine Learning
+# Resume Classification and Semantic Search using Embedded vectors
 
 This project implements a comprehensive solution for resume classification and semantic search. It leverages multiple machine learning techniques, including transformer-based architectures, for text classification and semantic search.
 
